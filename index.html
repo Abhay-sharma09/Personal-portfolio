@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Developer & Designer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress-bar" id="scrollIndicator"></div>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">A<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content stagger-wrapper">
+                <p class="greeting stagger-item">Hi there, I'm</p>
+                <h1 class="name stagger-item">Aarav <span class="gradient-text">Sharma</span></h1>
+                <h2 class="role stagger-item">I build <span class="typewriter">digital experiences.</span></h2>
+                <p class="summary stagger-item">
+                    A passionate Full Stack Developer specializing in crafting stunning, responsive, and robust web applications. I turn complex problems into beautiful, intuitive interfaces.
+                </p>
+                <div class="hero-cta stagger-item">
+                    <a href="#projects" class="btn btn-primary" data-cursor-scale>View My Work</a>
+                    <a href="#contact" class="btn btn-secondary" data-cursor-scale>Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper hidden-section">
+                <!-- 3D Tilt Card in Hero -->
+                <div class="glass-card decorative" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.5">
+                    <i class="fas fa-code"></i>
+                    <span>Clean Code</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about hidden-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-text glass-panel" data-tilt data-tilt-max="2" data-tilt-speed="1000">
+                    <h3>My Journey</h3>
+                    <p>I am a creative developer with a strong foundation in modern web technologies. My focus is on creating dynamic, user-centric web applications that not only look exceptional but perform flawlessly.</p>
+                    <p>When I'm not coding, you can find me exploring new design trends, contributing to open-source, or refining my technical skills.</p>
+                </div>
+                
+                <div class="skills html-panel">
+                    <h3>Technical Arsenal</h3>
+                    <div class="skills-grid stagger-wrapper">
+                        <div class="skill-tag stagger-item" data-cursor-scale>HTML5 & CSS3</div>
+                        <div class="skill-tag stagger-item" data-cursor-scale>JavaScript (ES6+)</div>
+                        <div class="skill-tag stagger-item" data-cursor-scale>TypeScript</div>
+                        <div class="skill-tag stagger-item" data-cursor-scale>React.js</div>
+                        <div class="skill-tag stagger-item" data-cursor-scale>Node.js</div>
+                        <div class="skill-tag stagger-item" data-cursor-scale>Express</div>
+                        <div class="skill-tag stagger-item" data-cursor-scale>Python</div>
+                        <div class="skill-tag stagger-item" data-cursor-scale>SQL & MongoDB</div>
+                        <div class="skill-tag stagger-item" data-cursor-scale>Git & GitHub</div>
+                        <div class="skill-tag stagger-item" data-cursor-scale>Figma</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects hidden-section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 with 3D Tilt -->
+                <article class="project-card glass-panel stagger-item" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <div class="project-image">
+                        <img src="assets/project1.png" alt="Analytics Dashboard">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" data-cursor-scale><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link" data-cursor-scale><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Nexus Analytics Dashboard</h3>
+                        <p>A full-stack data visualization platform offering real-time insights for enterprise companies. Features dynamic charting and dark mode support.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Chart.js</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 with 3D Tilt -->
+                <article class="project-card glass-panel stagger-item" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <div class="project-image">
+                        <img src="assets/project2.png" alt="Fitness Tracking App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" data-cursor-scale><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link" data-cursor-scale><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Pulse Fitness App</h3>
+                        <p>A responsive mobile-first web app that tracks workouts, calories, and personal records. Seamless sync with wearable devices.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 with 3D Tilt -->
+                <article class="project-card glass-panel stagger-item" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <div class="project-image">
+                        <img src="assets/project3.png" alt="E-Commerce Store">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" data-cursor-scale><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link" data-cursor-scale><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Aura Tech Store</h3>
+                        <p>A premium modern e-commerce storefront for smart gadgets. Features a secure checkout flow, user authentication, and a headless CMS integration.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Stripe API</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact hidden-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>I'm currently looking for new opportunities. Whether you have a question, a project idea, or just want to say hi, I'll try my best to get back to you!</p>
+                    <div class="social-links">
+                        <a href="mailto:hello@example.com" class="social-icon" data-cursor-scale><i class="fas fa-envelope"></i></a>
+                        <a href="#" class="social-icon" data-cursor-scale><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon" data-cursor-scale><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon" data-cursor-scale><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form glass-panel" data-tilt data-tilt-max="2" data-tilt-speed="2000">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn" data-cursor-scale>Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Designed and Built by Aarav. All rights reserved.</p>
+        <a href="#home" class="scroll-top" data-cursor-scale><i class="fas fa-chevron-up"></i></a>
+    </footer>
+
+    <!-- CDNs for External Libraries -->
+    <!-- Particles.js for interactive background -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Vanilla-Tilt.js for 3D card effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
