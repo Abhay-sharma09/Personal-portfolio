@@ -10,4 +10,4 @@ This project highlights my expertise in Full-stack development, AI/ML integratio
 - **Responsive Design**: Optimized for all devices with smooth navigation and micro-animations.
 - **Direct Contact**: Integrated links for Email, LinkedIn, and GitHub for easy networking.
 
-Built with ❤️ by [Abhay Kumar](https://github.com/Abhay-sharma09)
+Built with  by [Abhay Kumar](https://github.com/Abhay-sharma09)
